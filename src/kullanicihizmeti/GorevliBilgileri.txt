@@ -1,0 +1,6 @@
+Suat Erdem, Gorevli, 5551234567,Gece Nobeti, true
+Selin Aydin, Gorevli, 5552345678, Temizlik Denetimi, true
+Ece Gunes, Gorevli, 5554567890, Yemek Hazirliklari, true
+Meryem Gunes, Gorevli, 5554086360, Yemek Dagitimi,false
+Omer Faruk, Gorevli, 5555678901, Giris Kontrolu, true
+Zeynep Marasli, Gorevli, 55582372006, Oda Kontrolu, true, 

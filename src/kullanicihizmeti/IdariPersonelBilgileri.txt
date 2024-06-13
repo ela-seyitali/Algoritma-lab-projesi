@@ -1,0 +1,5 @@
+Ahmet Yilmaz, Idari, 5551234567, true
+Mehmet Demir, Idari, 5552345678, false
+Ayse Kaya, Idari, 5553456789, true
+Ebru Kara, Idari, 5557890726, true
+Hatice Kok, Idari, 5564332889, true
