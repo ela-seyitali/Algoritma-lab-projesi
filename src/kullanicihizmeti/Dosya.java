@@ -53,23 +53,5 @@ public class Dosya {
         File file = new File(dosyaYolu);
         return file.exists() && !file.isDirectory();
     }
-    /* 
-public String[] dosyadanOku() throws IOException {
-        // Geçici olarak 100 satır kapasiteli bir dizi kullanıyoruz
-        String[] veriler = new String[100];
-        int index = 0;
-
-        try (BufferedReader reader = new BufferedReader(new FileReader(dosyaYolu))) {
-            String satir;
-            while ((satir = reader.readLine()) != null && index < veriler.length) {
-                veriler[index++] = satir;
-            }
-        }
-
-        // Sonuç dizisini kesin boyutunda döndürüyoruz
-        String[] sonuc = new String[index];
-        System.arraycopy(veriler, 0, sonuc, 0, index);
-        return sonuc;
-    }
-     */
+  
 }

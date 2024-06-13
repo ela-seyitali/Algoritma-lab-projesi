@@ -5,7 +5,7 @@ public class Ogrenci extends Kullanici {
     void SetAdSoyad(String adSoyad) {
         super.adSoyad = adSoyad;
     }
-
+// kayıtlı öğrencileri String dizisine kaydettik
     private String[] adSoyadlar = {
         "Ayse Yilmaz",
         "Zeynep Kaya",
@@ -79,16 +79,18 @@ public class Ogrenci extends Kullanici {
     };
 
     private boolean bulundu;
-
+// String dizisinin elemanlarını sirasiyla metodun paramatresi ile karşılaştırılır.
     void ogrenciCagirma(String ogrenciAdi) {
         for (int i = 0; i < adSoyadlar.length; i++) {
-            if (adSoyadlar[i].equalsIgnoreCase(ogrenciAdi)) {
+            // eğer herhangi bir elmanla eşleşme olursa bu eleman (ogrenci) kayıtlıdır demek.. Ogrenci Çağırılır
+            if (adSoyadlar[i].equalsIgnoreCase(ogrenciAdi)) { 
                 System.out.println(ogrenciAdi + " adli ogrenci cagirilmistir. Lutfen bir kac dakika bekleyiniz..");
                 bulundu = true;
             }
 
         }
-        if (bulundu) { //bulundu değeri false oldugu için !bulundu yazsak true olabileceği duşuncesiyle ! koymadım..
+        // eleman ile eşleşme olmadığı için bulunmama mesajı yazılacaktır
+        if (bulundu==false) { 
             System.out.println(ogrenciAdi + " adli ogrenci bulunmamistir..");
         }
 

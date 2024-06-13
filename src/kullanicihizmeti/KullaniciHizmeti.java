@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class KullaniciHizmeti {
-// dosya sınıfını kullanmak için öncelikle verileri dizide saklamamız gerekmektedir... burda duruyorum 
 
     public static void main(String[] args) {
         //nesne  tanımlama 
@@ -17,9 +16,7 @@ public class KullaniciHizmeti {
         Kullanici idari = new Kullanici();
         Gorevli GNesne = new Gorevli();
         Ogrenci ONesne = new Ogrenci();
-        /// Gorevli gorevli = new gorevli();
 
-        //değişken tanımlama
         System.out.println("***********YURT GIRIS SISTEMI***********");
         System.out.println("Lutfen rolunuzu giriniz (Roller: Idari, Gorevli, Ogrenci) :");
         String rol = in.next();
